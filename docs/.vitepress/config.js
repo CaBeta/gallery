@@ -8,6 +8,7 @@ module.exports = {
     nav: [
       { text: "技术分享", link: "/posts" },
       { text: "小游戏", link: "/game" },
+      { text: "Github", link: "https://github.com/CaBeta/gallery" },
     ],
   },
 };
