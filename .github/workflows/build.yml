@@ -1,24 +1,23 @@
-name: build docs
+name: deploy pages
 
+# 监听到main分支push操作的时候运行
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
-  build:
-
+  build-and-deploy:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [16.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
     steps:
-    - uses: actions/checkout@v1
-    - name: GitHub Action for Yarn
-      uses: Borales/actions-yarn@v2.3.0
-      with:
-        cmd: yarn docs:build
+    - name: Checkout
+      uses: actions/checkout@master
+    - name: Install and Build
+      run: |
+        npm install
+        npm run build:docs
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@4.0.0
+      with: 
+        branch: pages
+        folder: docs/.vitepress/dist
