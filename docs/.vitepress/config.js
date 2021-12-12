@@ -1,5 +1,6 @@
 module.exports = {
   title: "Gallery",
+  base: "/gallery/",
   themeConfig: {
     // 启动页面丝滑滚动
     smoothScroll: true,
