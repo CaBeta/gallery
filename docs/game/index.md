@@ -1,2 +1,3 @@
-# 五子棋
-<iframe src="https://cabeta.github.io/GoBang/"></iframe>
+<script>
+  window.location.href = window.location.href + 'gobang';
+</script>

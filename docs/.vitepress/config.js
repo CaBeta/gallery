@@ -21,7 +21,7 @@ module.exports = {
         { text: "RxJS", link: "posts/rxjs/" },
       ],
       "/game/": [
-        { text: "五子棋", link: `game/` },
+        { text: "五子棋", link: `game/gobang` },
         { text: "贪吃🐍", link: `game/snake` },
         { text: "扫雷", link: `game/minesweeper` },
       ],
