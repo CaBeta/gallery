@@ -1,1 +1,0 @@
-import{_ as e,c as t,o}from"./app.e0d33696.js";const r={beforeMount(){window.location.href=window.location.href+"router-resolver"}},_='{"title":"","description":"","frontmatter":{},"relativePath":"posts/angular/index.md","lastUpdated":1639815090216}';function a(n,s,c,i,d,p){return o(),t("div")}var f=e(r,[["render",a]]);export{_ as __pageData,f as default};
