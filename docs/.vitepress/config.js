@@ -8,6 +8,15 @@ module.exports = {
     smoothScroll: true,
     sidebar: {
       "/posts/": [
+        {
+          text: "Angular",
+          children: [
+            {
+              text: "Angular router Resolver动态设置页面title和面包屑",
+              link: "posts/angular/router-resolver",
+            },
+          ],
+        },
         { text: "TypeScript", link: `posts/typescript/` },
         { text: "RxJS", link: "posts/rxjs/" },
       ],
