@@ -17,7 +17,14 @@ module.exports = {
             },
           ],
         },
-        { text: "TypeScript", link: `posts/typescript/` },
+        {
+          text: "TypeScript", link: `posts/typescript/`, children: [
+            {
+              text: "TypeScript: 将Python接口风格转成Java接口风格",
+              link: "posts/typescript/CamelCasedPropertiesDeep",
+            },
+          ]
+        },
         { text: "RxJS", link: "posts/rxjs/" },
       ],
       "/game/": [
