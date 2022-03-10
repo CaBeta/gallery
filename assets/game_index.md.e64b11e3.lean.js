@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./app.df7105bf.js";const a={beforeMount(){window.location.href=window.location.href+"gobang"}},_='{"title":"","description":"","frontmatter":{},"relativePath":"game/index.md","lastUpdated":1646904909458}';function n(r,c,i,s,d,p){return o(),t("div")}var l=e(a,[["render",n]]);export{_ as __pageData,l as default};

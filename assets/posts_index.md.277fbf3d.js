@@ -1,0 +1,1 @@
+import{_ as t,c as e,o}from"./app.df7105bf.js";const a={beforeMount(){window.location.href=window.location.href+"angular/"}},_='{"title":"","description":"","frontmatter":{},"relativePath":"posts/index.md","lastUpdated":1646904909458}';function n(r,s,c,i,d,p){return o(),e("div")}var l=t(a,[["render",n]]);export{_ as __pageData,l as default};
